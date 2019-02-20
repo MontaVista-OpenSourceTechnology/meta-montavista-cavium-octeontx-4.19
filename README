@@ -1,0 +1,29 @@
+
+This README file contains information on building the cavium octeontx bsp
+BSP layer, and booting the images contained in the /binary directory.
+Please see the corresponding sections below for details.
+
+This BSP supports the following Cavium HW:
+- OCTEON TX 81xx (SFF)
+- OCTEON TX 83xx (EVB)
+
+This release has not been tested on Cavium ThunderX/ThunderX2 Server class processors, 
+but it does contain the required enabling code
+
+Dependencies
+============
+
+This layer depends on:
+
+  URI: git://git.openembedded.org/bitbake
+  branch: 1.40
+
+  URI: git://git.openembedded.org/openembedded-core
+  layers: meta
+  branch: thud 
+
+Patches
+=======
+
+Maintainer: Support <jpuhlman@mvista.com>
+
